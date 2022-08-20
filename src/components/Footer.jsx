@@ -42,14 +42,14 @@ const Footer = () => {
                   <ul className="footer__address">
                         <li>
                            <FontAwesomeIcon icon={faHome} className="footer__icon" size="x"/>
-                           1107 Wood Street Saginaw, MI New York 48607
+                           Bakı Mühəndislik Universiteti, Xırdalan şəh., Həsən Əliyev küç., 120 AZ0101, Abşeron, Bakı, Azərbaycan
                         </li>
                         <li>
                            <FontAwesomeIcon icon={faPhone} className="footer__icon" size="x"/>
-                           +12 (34) 214 280 2000</li>
+                           +994 (12) 349 99 66</li>
                         <li>
                          <FontAwesomeIcon icon={faEnvelope} className="footer__icon" size="x"/>
-                           support@educa.com
+                         info@beu.edu.az
                         </li>
                      </ul>
                </div>

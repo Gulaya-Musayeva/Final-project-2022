@@ -42,7 +42,7 @@ const Navbar = () => {
    return (
       <header className='header'>
          <div className="header__container _container">
-           <div className="header__logo">
+           <div className="header__logo ">
            <Link onClick={closeMobileMenu} to="/"><img src={Logo} alt="Educa" /></Link>
            </div> 
            
@@ -56,17 +56,17 @@ const Navbar = () => {
                   <ul className="info__list">
                      <li className="info__item">
                         <span className="info__icon"><FontAwesomeIcon icon={faPhone} size="2xs"/></span>
-                        <span className="info__text">+49 233 322 333</span>
+                        <span className="info__text"> (012) 349 99 66</span>
                      </li>
                      <li className="info__item">
                         <span className="info__icon"><FontAwesomeIcon icon={faEnvelope} size="2xs"/></span>
-                        <span className="info__text">your@website.com</span>
+                        <span className="info__text">info@beu.edu.az</span>
                      </li>
                      <li className="info__item">
                         <span className="info__icon"><FontAwesomeIcon icon={faEarthAmericas} size="2xs"/></span>
                         <select name="English">
                            <option value="-1">English</option>
-                           <option value="">French</option>
+                           <option value="">Azerbaijan</option>
                            <option value="">Russian</option>
                         </select>
                      </li>
@@ -91,7 +91,8 @@ const Navbar = () => {
                            <button type="button" className='search-btn'>Search</button>
                         </form>
                      </div>
-                     </div></a>
+                     </div>
+                     </a>
                   </li>
                </nav>
             </div>
